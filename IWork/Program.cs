@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace IWork
 {
@@ -6,7 +7,11 @@ namespace IWork
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //Підтримка мови
+            Console.OutputEncoding = Encoding.Unicode;
+
+
+            Console.WriteLine("Добридень світе");
         }
     }
 }
